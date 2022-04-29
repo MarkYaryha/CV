@@ -1,13 +1,165 @@
 body{
-   background-color: #535353;
+   background-color: #816e5d;
    display: flex;
    justify-content: center;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 }
 
 main{
+   background-color: rgb(12, 12, 12);
    margin-top: 15%;
-   margin-bottom: 15%
-   background-color: rgb(255, 255, 255);
-   width: 210mm;
-   height: 297mm;
+   margin-bottom: 15%;
+   width: 215mm;
+   height: 295mm;
+   padding: 10px 50px;
 }
+
+header{
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+h5, p {
+   margin: 0;
+ }
+ 
+ 
+ .head-section {
+   width: 100%;
+   padding: 25px 0;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .head-boxes > h1 {
+   margin: 0;
+   font-weight: normal;
+   font-size: 40px;
+   margin-bottom: 15px;
+ }
+ 
+ .head-boxes > h3 {
+   font-weight: normal;
+   font-size: 20px;
+   opacity: 0.9;
+   margin-bottom: 10px;
+ }
+ 
+ .head-boxes > p {
+   margin: 0;
+   opacity: 0.5;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 1.5;
+ }
+ .head-boxes > img {
+   max-height: 150px;
+   margin-right: 70px;
+ }
+ .head-boxes{
+ margin-left: 20px;
+ }
+ .content {
+   width: 100%;
+   height: calc(100% - 200px);
+   /* background-color: orange; */
+   display: flex;
+ }
+ 
+ .content > section {
+   height: 100%;
+ }
+ 
+ .content-section-left {
+   margin-left: 20px;
+   width: 60%;
+   }
+ 
+ .content-section-left ul {
+   padding: 0 16px;
+ }
+ 
+ .content-section-left li {
+   list-style-type: "- ";
+   line-height: 1.5;
+   font-size: 17px;
+ }
+ 
+ .content-section-left h4 {
+     font-size: 20px;
+     margin-bottom: 10px;
+   }
+ 
+ .content-section-left p {
+     font-size: 17px;
+     margin-bottom: 10px;
+ }
+ 
+ footer.contacts > a {
+   color: inherit;
+   text-decoration: none;
+   font-size: 15px;
+   }
+ 
+ 
+ .contacts {
+   margin-top: 30px;
+ }
+ 
+ .content-section-right {
+   width: 40%;
+ }
+ .content-section-right p {
+   font-size: 17px;
+ }
+ 
+ .section-title {
+   opacity: 0.6;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   font-size: 20px;
+ }
+ 
+ .section-subtitle {
+   opacity: 0.5;
+   font-size: 15px;
+   margin-top: 5px;
+ }
+ 
+ .section-subtitle_underlined {
+   opacity: 0.5;
+   font-size: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   text-decoration: underline;
+ }
+ 
+ .experience-item {
+   margin-bottom: 30px;
+   font-size: 20px;
+ }
+ 
+ .experience-item:last-of-type {
+   margin-bottom: 100px;
+ }
+ 
+ .description {
+   font-size: 15px;
+   margin-bottom: 5px;
+ }
+ 
+ .skills {
+   margin-top: 50px;
+ }
+ 
+ .achiv {
+   margin-top: 50px;
+ }
+ 
+ table {
+   width: 100%;
+ }
+   table td {
+     padding: 10px;
+   }
