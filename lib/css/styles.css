@@ -55,11 +55,11 @@ h5, p {
  }
  .head-boxes > img {
    max-height: 180px;
-   margin-right: 70px;
+   margin-right: 50px;
    border-radius: 100px;
  }
  .head-boxes{
- margin-left: 20px;
+ margin-left: 50px;
  }
  .content {
    width: 100%;
@@ -89,11 +89,11 @@ h5, p {
  
  .content-section-left h4 {
      font-size: 20px;
-     margin-bottom: 10px;
+     margin-bottom: 550px;
    }
  
  .content-section-left p {
-     font-size: 17px;
+     font-size: 20px;
      margin-bottom: 10px;
  }
  
@@ -105,14 +105,14 @@ h5, p {
  
  
  .contacts {
-   margin-top: 30px;
+   margin-top: 25px;
  }
  
  .content-section-right {
-   width: 40%;
+   width: 30%;
  }
  .content-section-right p {
-   font-size: 17px;
+   font-size: 20px;
  }
  
  .section-title {
@@ -125,7 +125,7 @@ h5, p {
  .section-subtitle {
    opacity: 0.5;
    font-size: 15px;
-   margin-top: 5px;
+   margin-top: 10px;
  }
  
  .section-subtitle_underlined {
@@ -151,11 +151,11 @@ h5, p {
  }
  
  .skills {
-   margin-top: 50px;
+   margin-top: 30px;
  }
  
  .achiv {
-   margin-top: 50px;
+   margin-top: 40px;
  }
  
  table {
