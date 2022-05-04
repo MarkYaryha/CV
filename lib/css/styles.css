@@ -1,166 +1,232 @@
-body{
-   background-color: #816e5d;
-   display: flex;
-   justify-content: center;
-   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+body {
+  background-image: url("/lib/img/cvv.jpg");
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 238, 229);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3% 3% 3% 3%;
+  background-color: rgb(255, 255, 255);
+  width: 210mm;
+  height: 297mm;
+  border: 15px solid rgb(191, 192, 191);
 }
 
-main{
-   background-color: rgb(12, 12, 12);
-   margin-top: 15%;
-   margin-bottom: 15%;
-   width: 215mm;
-   height: 295mm;
-   padding: 10px 50px;
+header {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5%;
 }
 
-header{
-   border-bottom: 2px solid rgb(255, 255, 255);
+.top-section {
+  display: flex;
 }
 
-h5, p {
-   margin: 0;
- }
- 
- 
- .head-section {
-   width: 100%;
-   padding: 25px 0;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- 
- .head-boxes > h1 {
-   margin: 0;
-   font-weight: normal;
-   font-size: 30px;
-   margin-bottom: 15px;
- }
- 
- .head-boxes > h3 {
-   font-weight: normal;
-   font-size: 20px;
-   opacity: 0.9;
-   margin-bottom: 10px;
- }
- 
- .head-boxes > p {
-   margin: 0;
-   opacity: 0.5;
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 1.5;
- }
- .head-boxes > img {
-   max-height: 180px;
-   margin-right: 50px;
-   border-radius: 100px;
- }
- .head-boxes{
- margin-left: 50px;
- }
- .content {
-   width: 100%;
-   height: calc(100% - 200px);
-   /* background-color: orange; */
-   display: flex;
- }
- 
- .content > section {
-   height: 100%;
- }
- 
- .content-section-left {
-   margin-left: 20px;
-   width: 60%;
-   }
- 
- .content-section-left ul {
-   padding: 0 16px;
- }
- 
- .content-section-left li {
-   list-style-type: "- ";
-   line-height: 1.5;
-   font-size: 17px;
- }
- 
- .content-section-left h4 {
-     font-size: 20px;
-     margin-bottom: 550px;
-   }
- 
- .content-section-left p {
-     font-size: 20px;
-     margin-bottom: 10px;
- }
- 
- footer.contacts > a {
-   color: inherit;
-   text-decoration: none;
-   font-size: 15px;
-   }
- 
- 
- .contacts {
-   margin-top: 25px;
- }
- 
- .content-section-right {
-   width: 30%;
- }
- .content-section-right p {
-   font-size: 20px;
- }
- 
- .section-title {
-   opacity: 0.6;
-   margin-bottom: 10px;
-   margin-top: 20px;
-   font-size: 20px;
- }
- 
- .section-subtitle {
-   opacity: 0.5;
-   font-size: 15px;
-   margin-top: 10px;
- }
- 
- .section-subtitle_underlined {
-   opacity: 0.5;
-   font-size: 15px;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   text-decoration: underline;
- }
- 
- .experience-item {
-   margin-bottom: 30px;
-   font-size: 20px;
- }
- 
- .experience-item:last-of-type {
-   margin-bottom: 100px;
- }
- 
- .description {
-   font-size: 15px;
-   margin-bottom: 5px;
- }
- 
- .skills {
-   margin-top: 30px;
- }
- 
- .achiv {
-   margin-top: 40px;
- }
- 
- table {
-   width: 100%;
- }
-   table td {
-     padding: 10px;
-   }
+.main-content > h1 {
+  font-size: 400%;
+}
+
+.bold-text { 
+  font-weight: 600
+}
+
+.main-content > h3 {
+  margin: 13% 0% 0% 0%;
+  font-size: 110%;
+}
+
+.main-photo > img {    
+  margin: 0% 0% 0% 80% ;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.bottom-left {
+  padding: 5% 5% 0% 0%;
+  text-align: right;
+  white-space: nowrap;
+  border-right: 1px solid gray;
+}
+
+.box-contacts {
+  padding-bottom: 10%;
+  border-bottom: 1px solid gray;
+}
+
+.box-contacts > p {
+  padding: 0% 0% 10% 0%;
+}
+
+.box-education {  
+  padding: 10% 0% 10% 0%;
+  border-bottom: 1px solid gray;
+}
+.box-education > h2 {
+  padding: 0% 0% 15% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.box-education > p {
+  padding: 2% 0% 2% 0%;
+}
+
+.box-language {
+  padding: 10% 0% 10% 0%;
+  border-bottom: 1px solid gray;
+}
+
+.box-language > h2 { 
+  padding: 0% 0% 15% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.box-language > p {
+  padding: 5% 0% 5% 0%;
+}
+
+.box-expertise {
+  padding: 10% 0% 10% 0%;
+  border-bottom: 1px solid gray;
+}
+
+.box-expertise > h2 { 
+  padding: 0% 0% 15% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.box-expertise > p {
+  padding: 5% 0% 5% 0%;
+}
+
+.box-social {
+  padding: 10% 0% 10% 0%;
+}
+.box-social > h2 {
+  padding: 0% 0% 15% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+.box-social > p {
+  padding: 0% 0% 10% 0%;
+}
+
+.bottom-right {
+  padding-left: 5%;
+}
+
+.box-profile > h2 {
+  padding: 8% 0% 4% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.box-profile > p {
+  padding-bottom: 10%;
+  font-size: 95%;
+  border-bottom: 1px solid gray;
+}
+
+.box-expirience {
+  padding: 0% 0% 8% 0%;
+  border-bottom: 1px solid gray;
+}
+
+.box-expirience > h2 {
+  padding: 4% 0% 8% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+.work-expirience-1 {
+  display: flex;
+  padding: 0% 0% 0% 0%;
+}
+
+.work-left-text-1 {
+  white-space: nowrap;
+  padding-right: 10%;
+}
+
+.work-left-text-1 > h3 {
+  padding: 0% 0% 0% 0%;
+}
+
+.work-left-text-1 > p {
+  padding: 8% 0% 8% 0%;
+  font-size: 90%;
+}
+
+.work-right-text-1 {
+  padding: 0px 0px 0px 0px;
+  font-size: 95%;
+}
+
+.work-expirience-2 {
+  display: flex;
+  padding: 8% 0% 0% 0%;
+}
+
+.work-left-text-2 {
+  white-space: nowrap;
+  padding-right: 10%;
+}
+
+.work-left-text-2 > h3 {
+  padding: 0% 0% 0% 0%;
+}
+
+.work-left-text-2 > p {
+  padding: 8% 0% 8% 0%;
+  font-size: 90%;
+}
+
+.work-right-text-2 {
+  padding: 0px 0px 0px 0px;
+  font-size: 95%;
+}
+.work-expirience-3 {
+  display: flex;
+  padding: 8% 0% 0% 0%;
+}
+
+.work-left-text-3 {
+  white-space: nowrap;
+  padding-right: 10%;
+}
+
+.work-left-text-3 > h3 {
+  padding: 0% 0% 0% 0%;
+}
+
+.work-left-text-3 > p {
+  padding: 8% 0% 8% 0%;
+  font-size: 90%;
+}
+
+.work-right-text-3 {
+  padding: 0% 0% 0% 0%;
+  font-size: 95%;
+}
+
+.box-interest {
+  padding: 0px 0px 0px 0px;
+}
+
+.box-interest > h2 {
+  padding: 5% 0% 8% 0%;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.box-interest > p {
+  font-size: 95%;
+}
